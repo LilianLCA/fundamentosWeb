@@ -138,3 +138,28 @@ img {
     margin-top: 35px;
   }
 
+  #form-button{
+    border: 1px solid transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Century Gothic', sans-serif;
+    color: #d35400;
+    width: 100%; 
+  }
+
+  #footer{
+    color:  #d35400;
+    font-style: italic;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+#H4-color{
+    color: #e67e22;
+    font-size: 30px; 
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    text-shadow: 2px 2px;
+}

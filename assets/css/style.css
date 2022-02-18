@@ -91,7 +91,8 @@
     font-size: 14px;
     font-style: italic;
     font-family: 'Times New Roman';
-    color: azure; 
+    color: azure;
+    width: 100%; 
   }
 
   #list-link li{

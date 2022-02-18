@@ -72,10 +72,32 @@
   
     <img src="asserts/img/siteOficial.PNG" alt="Foto do site oficial da Toni Braxton.">
 
+    <h4 class="center" id="H4-color">Quer saber mais sobre outros artitas musicais? Por favor, deixe o seu e-mail!</h4>
+
+    <form class="center" id="form-button">
+
+        <label for="nome">Name:</label>
+        <input id="nome" type="text" onkeyup="validaNome()">
+        <div id="txtNome"></div>
+        <br>
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
+        <br>
+        <label for="telefone">Telefone de Contato:</label>
+        <input id="telefone" type="number" onkeyup="validaTelefone()">
+        <div id="txtTelefone"></div>
+        <br>
+        <button onclick="enviar()">Enviar</button>
+
+    </form>
+
     <hr>
     <footer class="center" id="footer">
         <p> Todos os diretor reservados: Lilian C. Assunção &copy; </p>
     </footer>
+
+    <script src="asserts/js/script.js"></script>
 
 </body>
 </html>
